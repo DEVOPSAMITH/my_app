@@ -91,7 +91,7 @@ jobs:
         BUILDOZER_WARN_ON_ROOT: 0
 
     - name: Upload APK Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: app-debug
         path: bin/*.apk
